@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <title>About the Dataset</title>
+  </head>
+  <body style="background-color: aquamarine;">
+    <h1>About the Dataset</h1>
+    <hr />
+    <h3><u>Source</u></h3>
+    <p>
+      This is a breast cancer dataset obtained from UCI Repository. You can access the dataset from the link below:
+      <a
+        href="https://archive.ics.uci.edu/dataset/14/breast+cancer" target="_blank"><strong>Dataset</strong></a
+      >
+    </p>
+    <h3><u>About the Data</u></h3>
+    <p>
+      This dataset includes 201 instances of one class and 85 instances of another class related to breast cancer. 
+      The instances are described by 9 attributes, some of which are linear and some are nominal according to the description on the dataset page.
+    </p>
+    <h3><u>Dataset Columns</u></h3>
+    <ul>
+      <li><strong>Class : </strong>no-recurrence-events, recurrence-events</li>
+      <li>
+        <strong>age : </strong>10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.
+      </li>
+      <li>
+        <strong>menopause : </strong>lt40, ge40, premeno.
+      </li>
+      <li><strong>tumor-size : </strong>0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59.</li>
+      <li><strong>inv-nodes : </strong>0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 30-32, 33-35, 36-39.</li>
+      <li><strong>node-caps : </strong>yes, no</li>
+      <li>
+        <strong>deg-malig : </strong>1, 2, 3
+      </li>
+      <li>
+        <strong>breast : </strong>left, right
+      </li>
+      <li><strong>breast-quad : </strong>left-up, left-low, right-up, right-low, central</li>
+      <li><strong>irradiat : </strong>yes, no</li>
+    </ul>
+    <h3><u>Important Links</u></h3>
+    <ul>
+      <li>
+        <h3><a href="{{url_for('index')}}">Home Page</a></h3>
+      </li>
+      <li>
+        <h3><a href="{{url_for('data')}}">View the Data</a></h3>
+      </li>
+    </ul>
+  </body>
+</html>
